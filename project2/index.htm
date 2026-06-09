@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anugya's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Hi, I'm Anugya Saxena</h1>
+      <p>AI/ML Enthusiast | CSE @ DTU | Developer | Dreamer</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <!-- <h2>Anugya</h2> -->
+    <div class="about-content" id="about-content">
+      <img src="images/me3.jpeg">
+      <div id="scroll-div">
+        <h1> AI-ENGINEER DEVELOPER INSATIABLY CURIOUS COMPUTER SCIENCE DSA </h1>
+        <h1> AI-ENGINEER DEVELOPER INSATIABLY CURIOUS COMPUTER SCIENCE DSA </h1>
+       
+        
+      
+      </div>
+
+      <div id="scroll-div2">
+        <h1>AI-ENGINEER DEVELOPER INSATIABLY CURIOUS COMPUTER SCIENCE DSA </h1>
+        <h1>AI-ENGINEER DEVELOPER INSATIABLY CURIOUS COMPUTER SCIENCE DSA </h1>
+       
+      </div>
+
+      <div id="scroll-div3">
+        <h1>AI-ENGINEER DEVELOPER INSATIABLY CURIOUS COMPUTER SCIENCE DSA </h1>
+        <h1>AI-ENGINEER DEVELOPER INSATIABLY CURIOUS COMPUTER SCIENCE DSA </h1>
+        
+      </div>
+      
+      
+    </div> 
+  </section><section class="projects" id="projects">
+ 
+  <div class="instruction-box">
+    <p>👇 Click on the truck menu to explore my projects! 🚚</p>
+  </div>
+
+  <div class="truck-wrapper">
+    <img src="images/HH-removebg-preview-Pica__1_-removebg-preview.png" class="food-truck" alt="Food Truck" />
+    <div class="menu-hotspot" onclick="toggleBook()" title="Click to open project menu"></div>
+
+    <div id="project-book" class="project-book hidden">
+      <button class="close-btn" onclick="toggleBook()" aria-label="Close">&times;</button>
+      <div class="book-page" id="page1">
+        
+        <h3> Crowd Count Model</h3>
+        <a href="https://drive.google.com/file/d/1rX0iipL9RxhvKo2OHozQf8Azi_JAuZJi/view?usp=drive_link" target="_blank">
+        <img src="images/crowdd.jpeg" alt=""></a>
+        <p>Deep learning model for crowd analysis.<br><a href="https://github.com/Anugya-algo/Crowd_count_analysis" target="_blank">Github</a></p>
+      </div>
+      
+      <div class="book-page hidden" id="page2">
+        <h3> Deepfake Detection</h3>
+        
+        <a href="https://github.com/Anugya-algo/Deepfake-MaskOff-Project" target="_blank"><img src="images/ai.jpg.webp" alt="" ></a>
+        <p>Detecting facial manipulations using EfficientViT.</p>
+      </div>
+      <div class="book-page hidden" id="page3">
+        
+        <h3> Movie Recommender</h3>
+        <a href="https://github.com/Anugya-algo/Movie-Recommender" target="_blank">
+        <img src="images/moviee.jpg" alt=""></a>
+        <p>Hierarchical clustering for recommendations.</p>
+      </div>
+      <div class="book-page hidden" id="page4">
+       
+        <h3>YT-Chat Saarthi</h3>
+        <a href="https://github.com/Anugya-algo/YT-Chat-Saarthi" target="_blank">
+        <img src="images/ragg.png" alt=""></a>
+        <p>RAG-powered chatbot for YouTube queries.</p>
+      </div>
+      <div class="book-page hidden" id="page5">
+        <h3> Gesture Drone Control</h3>
+        <img src="images/hand.jpeg" alt="">
+        <p>OpenCV-powered hand gesture drone control.</p>
+      </div>
+      <div class="book-page hidden" id="page6">
+        <h3>Personal Chatbot </h3>
+        <a href="https://personal-chat-bot-gray.vercel.app/" target="_blank">
+        <img src="images/image.png" alt="">
+        </a>
+        <p>Personal Chatgpt from scratch.</p>
+      </div>
+      <div class="book-page hidden" id="page7">
+        <h3> Weatherly</h3>
+        
+        <a href="https://github.com/Anugya-algo/Weatherly" target="_blank">
+        <img src="images/weather.png " alt=""></a>
+        <p>Real-time weather app</p>
+      </div>
+
+      <div class="book-page hidden" id="page8">
+        <h3>End to end Virtual Try+Recommendation</h3>
+        <a href="https://drive.google.com/file/d/1snXPdZ_eMX6ID73uuyDHr4rnD5bWsBnv/view?usp=sharing" target="_blank">
+        <img src="images/t4.gif" alt=""></a>
+        <p>High Fidelity Virtual Try-On ,Fashion Clip and React App</p>
+      </div>
+
+      <div class="book-controls">
+        <a href="#" onclick="prevPage()"><span class="arrow left"></span></a>
+        <a href="#" onclick="nextPage()"><span class="arrow right"></span></a>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Tech Stack Section (Dynamic, with logos) -->
+<section class="tech-stack-main">
+  <h2>Tech Stack</h2>
+  <div class="tech-stack-logos">
+    <div class="tech-logo">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" title="HTML5"/>
+      <span>HTML5</span>
+    </div>
+    <div class="tech-logo">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" title="CSS3"/>
+      <span>CSS3</span>
+    </div>
+    <div class="tech-logo">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript"/>
+      <span>JavaScript</span>
+    </div>
+    <div class="tech-logo">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" title="TypeScript"/>
+      <span>TypeScript</span>
+    </div>
+    <div class="tech-logo">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" title="React"/>
+      <span>React</span>
+    </div>
+    <div class="tech-logo">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" title="Python"/>
+      <span>Python</span>
+    </div>
+    <div class="tech-logo">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" title="C"/>
+      <span>C</span>
+    </div>
+    <div class="tech-logo">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" title="C++"/>
+      <span>C++</span>
+    </div>
+    <div class="tech-logo">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" title="TensorFlow"/>
+      <span>TensorFlow</span>
+    </div>
+    <div class="tech-logo">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" title="PyTorch"/>
+      <span>PyTorch</span>
+    </div>
+    <div class="tech-logo">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" alt="FastAPI" title="FastAPI"/>
+      <span>FastAPI</span>
+    </div>
+    <div class="tech-logo">
+      <img src="images/vercel.png" alt="Vercel" title="Vercel" style="background:#fff;border-radius:6px;"/>
+      <span>Vercel</span>
+    </div>
+    <div class="tech-logo">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Deep Learning" title="Deep Learning"/>
+      <span>Deep Learning</span>
+    </div>
+    <div class="tech-logo">
+      <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Transformer" title="Transformer" style="background:#fff;border-radius:6px;"/>
+      <span>Transformer</span>
+    </div>
+  </div>
+</section>
+
+ 
+  <!-- Connect with Me Section -->
+<section class="social-section">
+  <h2>Connect with Me</h2>
+  <div class="social-links">
+    <a href="https://www.linkedin.com/in/anugya-saxena-39aa571a8/" target="_blank" class="social-link linkedin" title="LinkedIn">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn">
+      <span>LinkedIn</span>
+    </a>
+    <a href="https://github.com/Anugya-algo" target="_blank" class="social-link github" title="GitHub">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+      <span>GitHub</span>
+    </a>
+    <a href="https://leetcode.com/u/ghXc1g3X3j/" target="_blank" class="social-link leetcode" title="LeetCode">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode">
+      <span>LeetCode</span>
+    </a>
+    <a href="mailto:findanugya@gmail.com" class="social-link gmail" title="Gmail">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt="Gmail">
+      <span>Gmail</span>
+    </a>
+    
+    <a href="images/insta.jpeg" target="_blank" class="social-link instagram" title="Instagram">
+      <img src="images/insta.jpeg" alt="Instagram">
+      <span>Instagram</span>
+    </a>
+  </div>
+</section>
+ <!-- Contact Section -->
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <script>
+  // Removed duplicate declaration of currentPage and related functions
+</script>
+
+
+  <script>
+  const truck1 = document.querySelector('.food-truck');
+  const wrapper = document.querySelector('.truck-wrapper');
+
+  window.addEventListener('scroll', () => {
+    const scrollTop = window.scrollY;
+    const triggerStart = wrapper.offsetTop - window.innerHeight + 100;
+    const triggerEnd = wrapper.offsetTop + 100;
+    
+    if (scrollTop >= triggerStart && scrollTop <= triggerEnd) {
+      // Calculate percentage scrolled between start and end
+      const progress = (scrollTop - triggerStart) / (triggerEnd - triggerStart);
+      const maxOffset = 55; // how far to move left
+
+      truck1.style.transform = `translateX(-${progress * maxOffset}%)`;
+    }
+  });
+
+  function toggleMenu() {
+    const menu = document.getElementById('project-menu');
+    menu.classList.toggle('hidden');
+  }
+</script>
+
+
+<script>
+  // Truck scroll in
+  const truckWrapper = document.querySelector('.truck-wrapper');
+  const truck = document.querySelector('.food-truck');
+
+  window.addEventListener('scroll', () => {
+    const triggerPoint = truckWrapper.offsetTop - window.innerHeight / 1.5;
+    if (window.scrollY >= triggerPoint) {
+      truckWrapper.classList.add('truck-in-view');
+    }
+  });
+
+  // Menu Book Logic
+  let currentPage = 1;
+  function toggleBook() {
+    const book = document.getElementById('project-book');
+    book.classList.toggle('hidden');
+  }
+
+
+
+  function showPage(page) {
+    for (let i = 1; i <= 8; i++) {
+      document.getElementById(`page${i}`).classList.add('hidden');
+    }
+    document.getElementById(`page${page}`).classList.remove('hidden');
+  }
+
+  function nextPage() {
+    if (currentPage < 8) {
+      currentPage++;
+      showPage(currentPage);
+    }
+  }
+
+  function prevPage() {
+    if (currentPage > 1) {
+      currentPage--;
+      showPage(currentPage);
+    }
+  }
+</script>
+</body>
+</html>

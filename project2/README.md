@@ -10,7 +10,8 @@ Quick deploy (GitHub Pages - branch: `main` or `gh-pages`):
 
 Notes:
 - All asset paths are relative and use forward slashes so they work on case-sensitive servers.
-- `index.htm` is the site entry point. If you want to use `index.html`, rename the file accordingly.
+- `index.html` is the site entry point.
+- If you are deploying with Netlify from the repo root, this repo uses a nested publish folder. The included `netlify.toml` sets `publish = "project2"`.
 - If you use a custom domain, add a `CNAME` file with your domain.
 
 Local preview:
